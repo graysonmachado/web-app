@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Königsegg — the art of speed." />
+    <title>KÖNIGSEGG — The Art of Speed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Königsegg home">KÖNIGSEGG<span>®</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#specs">The Gemera</a>
+        <a href="#atelier">Atelier</a>
+      </nav>
+      <button class="menu-button" aria-label="Open menu"><i></i><i></i></button>
+    </header>
+
+    <main id="top">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">A new dimension of performance <span>01 / 04</span></p>
+          <h1>Pure<br /><em>desire.</em></h1>
+          <p class="hero-intro">We don't build supercars.<br />We engineer the impossible.</p>
+          <a class="circle-link" href="#philosophy" aria-label="Explore the story">↓<span>Explore</span></a>
+        </div>
+        <div class="hero-meta"><span>Ängelholm / Sweden</span><span>Since 1994</span></div>
+      </section>
+
+      <section id="philosophy" class="story panel dark-panel">
+        <div class="section-index">02 / 04</div>
+        <div class="story-copy">
+          <p class="eyebrow">The Koenigsegg philosophy</p>
+          <h2>Limitations are<br /><em>just suggestions.</em></h2>
+          <p class="body-copy">From a frozen airfield in southern Sweden to the world's fastest roads, every Koenigsegg starts with one question: what if?</p>
+          <a class="text-link" href="#specs">Discover our DNA <b>↗</b></a>
+        </div>
+        <div class="vertical-note">CRAFTED WITHOUT COMPROMISE</div>
+      </section>
+
+      <section id="specs" class="specs panel">
+        <div class="section-index">03 / 04</div>
+        <div class="spec-head"><p class="eyebrow">The four-seat megacar</p><h2>Gemera</h2><p class="body-copy">A new kind of performance car. Room for four. A powertrain that rewrites the rules.</p></div>
+        <div class="stats"><div><strong>1,400</strong><span>horsepower</span></div><div><strong>2.9<span>s</span></strong><span>0—100 km/h</span></div><div><strong>400<span>+</span></strong><span>km/h top speed</span></div></div>
+        <button class="spec-cta">Explore Gemera <span>↗</span></button>
+      </section>
+
+      <section id="atelier" class="atelier panel dark-panel">
+        <div class="section-index">04 / 04</div>
+        <div class="atelier-content"><p class="eyebrow">The factory is our laboratory</p><h2>Handmade<br /><em>hypercar.</em></h2><p class="body-copy">Every detail is designed, tested and built at our home in Ängelholm. This is where imagination becomes machinery.</p><a class="text-link" href="#top">Visit the atelier <b>↗</b></a></div>
+        <div class="atelier-stamp">K / 1994</div>
+      </section>
+    </main>
+
+    <footer><span>© 2024 Koenigsegg Automotive AB</span><span>Made for motion</span><a href="#top">Back to top ↑</a></footer>
+    <div id="scene" aria-hidden="true"></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
