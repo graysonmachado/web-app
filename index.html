@@ -1,65 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Königsegg — the art of speed." />
-    <title>KÖNIGSEGG — The Art of Speed</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="cursor"></div>
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Königsegg home">KÖNIGSEGG<span>®</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="#philosophy">Philosophy</a>
-        <a href="#specs">The Gemera</a>
-        <a href="#atelier">Atelier</a>
-      </nav>
-      <button class="menu-button" aria-label="Open menu"><i></i><i></i></button>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LIMIT RING - Premium anime-inspired scroll storytelling experience" />
+  <title>LIMIT RING - Carry the impossible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <a class="nav-logo" href="#scene-1" aria-label="LIMIT RING home">
+      LIMIT<span>RING</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#scene-1" class="nav-link">STORY</a></li>
+      <li><a href="#scene-4" class="nav-link">FEATURES</a></li>
+      <li><a href="#scene-6" class="nav-link">BUY</a></li>
+    </ul>
+  </nav>
 
-    <main id="top">
-      <section class="hero panel">
-        <div class="hero-copy">
-          <p class="eyebrow">A new dimension of performance <span>01 / 04</span></p>
-          <h1>Pure<br /><em>desire.</em></h1>
-          <p class="hero-intro">We don't build supercars.<br />We engineer the impossible.</p>
-          <a class="circle-link" href="#philosophy" aria-label="Explore the story">↓<span>Explore</span></a>
+  <main>
+    <!-- SCENE 1: OPENING / THE OBJECT -->
+    <section id="scene-1" class="scene scene-1" aria-label="Scene 1: The Object">
+      <div class="scene-content">
+        <div class="ring-container" aria-hidden="true">
+          <div class="ring" id="ring-scene1"></div>
         </div>
-        <div class="hero-meta"><span>Ängelholm / Sweden</span><span>Since 1994</span></div>
-      </section>
-
-      <section id="philosophy" class="story panel dark-panel">
-        <div class="section-index">02 / 04</div>
-        <div class="story-copy">
-          <p class="eyebrow">The Koenigsegg philosophy</p>
-          <h2>Limitations are<br /><em>just suggestions.</em></h2>
-          <p class="body-copy">From a frozen airfield in southern Sweden to the world's fastest roads, every Koenigsegg starts with one question: what if?</p>
-          <a class="text-link" href="#specs">Discover our DNA <b>↗</b></a>
+        <div class="scene-text">
+          <h1 class="scene-title">LIMIT</h1>
+          <p class="scene-subtitle">Power has a form.</p>
         </div>
-        <div class="vertical-note">CRAFTED WITHOUT COMPROMISE</div>
-      </section>
+      </div>
+      <div class="scene-parallax-layer">
+        <!-- Atmospheric particles -->
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+      </div>
+    </section>
 
-      <section id="specs" class="specs panel">
-        <div class="section-index">03 / 04</div>
-        <div class="spec-head"><p class="eyebrow">The four-seat megacar</p><h2>Gemera</h2><p class="body-copy">A new kind of performance car. Room for four. A powertrain that rewrites the rules.</p></div>
-        <div class="stats"><div><strong>1,400</strong><span>horsepower</span></div><div><strong>2.9<span>s</span></strong><span>0—100 km/h</span></div><div><strong>400<span>+</span></strong><span>km/h top speed</span></div></div>
-        <button class="spec-cta">Explore Gemera <span>↗</span></button>
-      </section>
+    <!-- SCENE 2: GOJO ARRIVAL -->
+    <section id="scene-2" class="scene scene-2" aria-label="Scene 2: Gojo Arrival">
+      <div class="scene-content">
+        <div class="ring-container" aria-hidden="true">
+          <div class="ring" id="ring-scene2"></div>
+        </div>
+        <div class="city-silhouette" aria-hidden="true">
+          <!-- JJK city background -->
+        </div>
+        <div class="gojo-character" aria-label="Gojo Satoru">
+          <div class="gojo-head"></div>
+          <div class="gojo-coat"></div>
+          <div class="gojo-eyes"></div>
+        </div>
+        <div class="scene-text">
+          <h1 class="scene-title">CONTROL</h1>
+          <p class="scene-subtitle">Power means nothing without precision.</p>
+        </div>
+      </div>
+      <div class="scene-parallax-layer">
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+      </div>
+    </section>
 
-      <section id="atelier" class="atelier panel dark-panel">
-        <div class="section-index">04 / 04</div>
-        <div class="atelier-content"><p class="eyebrow">The factory is our laboratory</p><h2>Handmade<br /><em>hypercar.</em></h2><p class="body-copy">Every detail is designed, tested and built at our home in Ängelholm. This is where imagination becomes machinery.</p><a class="text-link" href="#top">Visit the atelier <b>↗</b></a></div>
-        <div class="atelier-stamp">K / 1994</div>
-      </section>
-    </main>
+    <!-- SCENE 3: ENERGY / CONFLICT -->
+    <section id="scene-3" class="scene scene-3" aria-label="Scene 3: Energy / Conflict">
+      <div class="scene-content">
+        <div class="ring-container" aria-hidden="true">
+          <div class="ring" id="ring-scene3"></div>
+        </div>
+        <div class="maki-character" aria-label="Maki Zenin">
+          <div class="maki-body"></div>
+          <div class="maki-blade"></div>
+        </div>
+        <div class="gojo-character" aria-label="Gojo Satoru">
+          <div class="gojo-head"></div>
+          <div class="gojo-coat"></div>
+        </div>
+        <div class="energy-streaks">
+          <div class="streak streak-1"></div>
+          <div class="streak streak-2"></div>
+          <div class="streak streak-3"></div>
+        </div>
+        <div class="scene-text">
+          <h1 class="scene-title">INSTINCT</h1>
+          <p class="scene-subtitle">Precision meets force.</p>
+        </div>
+      </div>
+      <div class="scene-parallax-layer">
+        <div class="particle particle-6"></div>
+      </div>
+    </section>
 
-    <footer><span>© 2024 Koenigsegg Automotive AB</span><span>Made for motion</span><a href="#top">Back to top ↑</a></footer>
-    <div id="scene" aria-hidden="true"></div>
-    <script type="module" src="app.js"></script>
-  </body>
+    <!-- SCENE 4: PRODUCT CAPABILITIES -->
+    <section id="scene-4" class="scene scene-4" aria-label="Scene 4: Product Capabilities">
+      <div class="scene-content">
+        <div class="ring-product" aria-label="LIMIT RING product showcase">
+          <div class="ring-inner"></div>
+          <div class="ring-band"></div>
+          <div class="ring-marking"></div>
+          <div class="glow-inner"></div>
+        </div>
+        <div class="product-features">
+          <div class="feature" data-feature="1">
+            <div class="feature-label">BLACK TITANIUM</div>
+            <div class="feature-desc">Lightweight. Durable. Cold-forged.</div>
+          </div>
+          <div class="feature" data-feature="2">
+            <div class="feature-label">INNER CORE</div>
+            <div class="feature-desc">Designed for comfort and balance.</div>
+          </div>
+          <div class="feature" data-feature="3">
+            <div class="feature-label">PRECISION EDGE</div>
+            <div class="feature-desc">Minimal profile. Defined silhouette.</div>
+          </div>
+          <div class="feature" data-feature="4">
+            <div class="feature-label">LIMIT MARK</div>
+            <div class="feature-desc">Individually engraved.</div>
+          </div>
+        </div>
+        <div class="scene-text">
+          <h1 class="scene-title">LIMIT RING</h1>
+          <p class="scene-subtitle">Carry the impossible.</p>
+        </div>
+      </div>
+      <div class="scene-parallax-layer">
+        <div class="particle particle-7"></div>
+      </div>
+    </section>
+
+    <!-- SCENE 5: RETURN TO THE STORY -->
+    <section id="scene-5" class="scene scene-5" aria-label="Scene 5: Return to the Story">
+      <div class="scene-content">
+        <div class="ring-container" aria-hidden="true">
+          <div class="ring" id="ring-scene5"></div>
+        </div>
+        <div class="rooftop-environment" aria-hidden="true">
+          <!-- Urban rooftop environment -->
+        </div>
+        <div class="gojo-character" aria-label="Gojo Satoru">
+          <div class="gojo-head"></div>
+          <div class="gojo-coat"></div>
+        </div>
+        <div class="maki-character" aria-label="Maki Zenin">
+          <div class="maki-body"></div>
+        </div>
+        <div class="scene-text">
+          <h1 class="scene-title">BUILT TO MOVE</h1>
+          <p class="scene-subtitle">Made to remain.</p>
+        </div>
+      </div>
+      <div class="scene-parallax-layer">
+        <div class="particle particle-8"></div>
+      </div>
+    </section>
+
+    <!-- SCENE 6: FINAL PRODUCT / PURCHASE -->
+    <section id="scene-6" class="scene scene-6" aria-label="Scene 6: Final Product / Purchase">
+      <div class="scene-content">
+        <div class="ring-product-large" aria-label="LIMIT RING final product">
+          <div class="ring-inner-large"></div>
+          <div class="ring-band-large"></div>
+        </div>
+        <div class="product-details" aria-label="Product purchase details">
+          <h2 class="product-headline">LIMIT RING</h2>
+          <p class="product-subhead">Carry the impossible.</p>
+          <div class="product-price">₹12,999</div>
+          <button class="product-btn buy-now" aria-label="Buy LIMIT RING">BUY NOW</button>
+          <button class="product-btn view-details" aria-label="View details">VIEW DETAILS</button>
+          <button class="product-btn close-modal" aria-label="Close modal">✕</button>
+        </div>
+        <div class="scene-text">
+          <h1 class="scene-title">LIMIT RING</h1>
+        </div>
+      </div>
+      <div class="scene-parallax-layer">
+        <div class="particle particle-9"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Purchase Modal -->
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-content">
+      <h3 id="modalTitle">LIMIT RING</h3>
+      <button class="modal-close" aria-label="Close modal" onclick="closeModal()">&times;</button>
+      <div class="modal-body">
+        <div class="size-selector">
+          <label>Size</label>
+          <select>
+            <option>US 8</option>
+            <option>US 9</option>
+            <option>US 10</option>
+            <option>US 11</option>
+            <option>US 12</option>
+          </select>
+        </div>
+        <div class="quantity-control">
+          <label>Quantity</label>
+          <div class="quantity-btn decrease">−</div>
+          <span class="quantity-value">1</span>
+          <div class="quantity-btn increase">+</div>
+        </div>
+        <div class="product-specs">
+          <div class="spec-item">
+            <span>Material</span>
+            <span>Black Titanium</span>
+          </div>
+          <div class="spec-item">
+            <span>Inner Glow</span>
+            <span>Faint Blue</span>
+          </div>
+          <div class="spec-item">
+            <span>Engraving</span>
+            <span>LIMIT Mark - Individual</span>
+          </div>
+        </div>
+        <div class="product-price-large">₹12,999</div>
+        <button class="btn-add-cart">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
 </html>
